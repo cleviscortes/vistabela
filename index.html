@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Pousada Vista Bela - Restaurante e Eventos em Montanha, Espírito Santo. Hospedagem rústica sofisticada, gastronomia e eventos.">
+    <title>Vista Bela Restaurante e Pousada | Montanha - ES</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="glass-header">
+        <div class="container header-content">
+            <a href="#home" class="logo">
+                <img src="logotipo.png" alt="Vista Bela Logotipo">
+            </a>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#conheca-nos" class="nav-link">Conheça-nos</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#eventos" class="nav-link">Eventos</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#fale-conosco" class="nav-link btn-contact">Fale Conosco</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay"></div>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+        <!-- Overlay removed for original image color -->
+        <div class="container hero-content">
+            <!-- Content removed as requested -->
+        </div>
+    </section>
+
+    <!-- Conheça-nos -->
+    <section id="conheca-nos" class="section-padding bg-light">
+        <div class="container grid-2-cols">
+            <div class="media-content vertical-video-wrapper fade-in-left">
+                <video controls poster="imagens/galeria-2.jpg" class="vertical-video">
+                    <source src="imagens/conheca-nos.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+            </div>
+            <div class="text-content fade-in-right">
+                <h2>Conheça a Vista Bela</h2>
+                <div class="separator"></div>
+                <p>Descubra o charme da Pousada Vista Bela! 🌿✨</p>
+                <p>Se você busca conforto, sofisticação e uma conexão única com a natureza, a Pousada Vista Bela é o
+                    destino ideal! Com um estilo rústico sofisticado, oferecemos acomodações aconchegantes, equipadas
+                    com ar-condicionado, para garantir o seu bem-estar em qualquer estação.</p>
+                <p>Nossa área de lazer conta com uma deliciosa piscina, perfeita para momentos de relaxamento e
+                    diversão.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="section-padding bg-sand">
+        <div class="container grid-2-cols reverse-mobile">
+            <div class="text-content fade-in-left">
+                <h2>Nossa Galeria</h2>
+                <div class="separator"></div>
+                <p>Seja para uma escapada romântica, dias de descanso em família ou uma pausa revigorante, aqui você
+                    encontra o equilíbrio perfeito entre elegância e aconchego.</p>
+                <p class="location-pin"><i class="fas fa-map-marker-alt"></i> Venha viver essa experiência! Reserve já
+                    sua estadia na Pousada Vista Bela e aproveite cada instante com conforto e tranquilidade.</p>
+            </div>
+            <div class="gallery-content fade-in-right">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="imagens/galeria-1.jpg" alt="Pousada Vista Bela Ambiente">
+                        <img src="imagens/galeria-2.jpg" alt="Pousada Vista Bela Detalhes">
+                        <img src="imagens/galeria-3.jpg" alt="Pousada Vista Bela Piscina">
+                        <img src="imagens/galeria-4.jpg" alt="Pousada Vista Bela Quarto">
+                        <img src="imagens/galeria-5.jpg" alt="Pousada Vista Bela Natureza">
+                        <img src="imagens/galeria-6.jpg" alt="Pousada Vista Bela Lazer">
+                        <img src="imagens/galeria-7.jpg" alt="Pousada Vista Bela Eventos">
+                        <img src="imagens/galeria-8.jpg" alt="Pousada Vista Bela Gastronomia">
+                    </div>
+                    <button id="prevBtn" class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <button id="nextBtn" class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos -->
+    <section id="eventos" class="section-padding bg-light">
+        <div class="container grid-2-cols">
+            <div class="media-content vertical-video-wrapper fade-in-left">
+                <video controls loop poster="imagens/galeria-7.jpg" class="vertical-video">
+                    <source src="imagens/seuevento.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+            </div>
+            <div class="text-content fade-in-right">
+                <h2>Eventos Inesquecíveis</h2>
+                <div class="separator"></div>
+                <h3>Faça seu evento em nossa pousada.</h3>
+                <p>O cenário perfeito para casamentos, aniversários e confraternizações. Transforme momentos especiais
+                    em memórias eternas com a beleza natural da Vista Bela como pano de fundo.</p>
+                <a href="#fale-conosco" class="btn btn-secondary">Solicitar Orçamento</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section-padding bg-sand">
+        <div class="container grid-2-cols reverse-mobile">
+            <div class="text-content fade-in-left">
+                <h2>Seus Projetos Aqui</h2>
+                <div class="separator"></div>
+                <h3>Apresente seus produtos em nossas instalações e dê poder à sua marca.</h3>
+                <p>Um ambiente sofisticado que valoriza o seu negócio. Ideal para lançamentos, ensaios fotográficos e
+                    workshops corporativos.</p>
+            </div>
+            <div class="media-content vertical-video-wrapper fade-in-right">
+                <video controls loop poster="imagens/galeria-5.jpg" class="vertical-video">
+                    <source src="imagens/seuprojeto.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fale Conosco -->
+    <section id="fale-conosco" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Fale Conosco</h2>
+                <div class="separator centered"></div>
+                <p>Estamos prontos para te atender.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-wrapper box-shadow">
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <div class="map-wrapper box-shadow">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120967.636603099!2d-40.370!3d-18.125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDA3JzMwLjAiUyA0MMKwMjInMTIuMCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="address-overlay">
+                        <p><i class="fas fa-map-pin"></i> Fazenda Bela Vista - Córrego do Café, Montanha, ES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <img src="logotipo.png" alt="Vista Bela Logo" class="footer-logo">
+                <p class="footer-desc">O refúgio perfeito entre a natureza e a sofisticação.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p><i class="fab fa-whatsapp"></i> (27) 99996-7571</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Horário de Funcionamento</h4>
+                <p>Quinta a Domingo</p>
+                <p>Aberto para almoço e jantar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Vista Bela Restaurante e Pousada. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5527999967571" class="whatsapp-float" target="_blank" aria-label="Fale Conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
